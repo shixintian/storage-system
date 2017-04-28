@@ -22,6 +22,7 @@ app.use(cookieParser());
 
 // 应用session中间件
 // 请求上添加一个属性session
+//lallalalallallalla
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
