@@ -15,6 +15,7 @@ define(function (require, exports, module) {
 				
 				alert(data.msg);
 
+
 				if(data.code == 10000) {
 					location.href = '/';
 				}

@@ -22,7 +22,10 @@ router.post('/', function (req, res) {
 
 		// console.log(result);
 		// 记录登录状态
+		console.log("------");
+
 		req.session.loginfo = result[0];
+		console.log(req.session.loginfo)
 
 		res.json({
 			code: 10000,

@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
-  cookie: {maxAge: 60 * 60 * 24}
+  // cookie: {maxAge: 60 * 60 * 24}
 }));
 
 // 解析 application/x-www-form-urlencoded 
@@ -66,4 +66,6 @@ app.use('/teacher', teacher);
 app.use('/login', login);
 app.use('/course', course);
 
-app.listen(3000);
+app.listen('4000','127.0.0.1',function(){
+	console.log('server is running at 4000');
+});

@@ -24,6 +24,9 @@
 	<script src="/libs/sea.js"></script>
 	<script src="/libs/seajs-preload.js"></script>
 	<script src="/libs/seajs-config.js"></script>
+	<script>
+		seajs.use();
+	</script>
 	{{{block ('script')}}}
 </body>
 </html>
