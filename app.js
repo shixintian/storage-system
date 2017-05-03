@@ -22,7 +22,6 @@ app.use(cookieParser());
 
 // 应用session中间件
 // 请求上添加一个属性session
-//lallalalallallalla
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
@@ -67,6 +66,4 @@ app.use('/teacher', teacher);
 app.use('/login', login);
 app.use('/course', course);
 
-app.listen('4000','127.0.0.1',function(){
-	console.log('server is running at 4000');
-});
+app.listen(3000);

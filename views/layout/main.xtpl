@@ -31,9 +31,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="/">
+					<a href="/teacher">
 						<i class="fa fa-bell"></i>
-						登录管理
+						讲师管理
 					</a>
 				</li>
 				<li>

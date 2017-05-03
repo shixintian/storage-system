@@ -8,8 +8,8 @@
 	<div class="body teacher">
 		<!-- 面包屑 -->
 		<ol class="breadcrumb">
-			<li><a href="javascript:;">讲师管理</a></li>
-			<li class="active">讲师添加</li>
+			<li><a href="javascript:;">员工管理</a></li>
+			<li class="active">员工添加</li>
 		</ol>
 		<div class="teacher-add">
 			<form id="addTeacher" action="{{#if (teacher.tc_id)}} /teacher/edit {{else}} /teacher/add {{/if}}" class="form-horizontal col-md-offset-2">
@@ -19,7 +19,7 @@
 				<div class="form-group has-feedback">
 					<label for="" class="col-md-3 control-label">姓名</label>
 					<div class="col-md-4">
-						<input type="text" class="form-control input-sm" name="tc_name" value="{{teacher.tc_name}}" data-required placeholder="讲师名称">
+						<input type="text" class="form-control input-sm" name="tc_name" value="{{teacher.tc_name}}" data-required placeholder="员工名称">
 						<span class="glyphicon form-control-feedback"></span>
 					</div>
 				</div>
@@ -40,7 +40,7 @@
 					<label for="" class="col-md-3 control-label">类型</label>
 					<div class="col-md-2">
 						<select name="tc_type" class="form-control input-sm">
-							<option value="1" {{#if (teacher.tc_type === 1)}} selected {{/if}}>讲师</option>
+							<option value="1" {{#if (teacher.tc_type === 1)}} selected {{/if}}>员工</option>
 							<option value="0" {{#if (teacher.tc_type === 0)}} selected {{/if}}>管理员</option>
 						</select>
 					</div>

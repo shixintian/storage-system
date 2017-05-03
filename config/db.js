@@ -5,9 +5,7 @@ var connection = mysql.createConnection({
 	host     : 'localhost',
 	user     : 'root',
 	password : 'root',
-	database : 'answer'
+	database : 'itcast'
 });
-
-
 
 module.exports = connection;
