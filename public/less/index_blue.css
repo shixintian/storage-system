@@ -1,0 +1,202 @@
+body {
+    background: #F2F2F2
+}
+
+.top-navbar {
+    color: #333
+}
+
+.navbar .logo-img h1 a {
+    background: url(/images/public-icons.svg) no-repeat -15px -251px #f14400
+}
+
+.navbar .navbar-con .site-menu li a {
+    color: #fff
+}
+
+.en-main .side-menu .side-menu-top {
+    color: #fff
+}
+
+.en-main .side-menu .side-menu-con {
+    background-color: #fff
+}
+
+.en-main .side-menu .side-menu-con li a {
+    color: #4A4A4A
+}
+
+.en-main .side-menu .side-menu-con .side-menu-con-tit {
+    color: #000
+}
+
+.en-main .en-main-content .en-baseinfo {
+    border: 1px solid #e5e5e5;
+    background-color: #fff
+}
+
+.index-listTable thead {
+    background: #F7F7F7;
+    border: 1px solid #E5E5E5;
+    color: #475669
+}
+
+.index-listTable tbody tr {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.index-listTable td .act-name a {
+    color: #333
+}
+
+.index-listTable td .act-name a:hover {
+    text-decoration: none;
+    color: #f14400
+}
+
+.index-listTable td .thing-name a {
+    color: #333
+}
+
+.index-listTable td .thing-name a:hover {
+    text-decoration: none;
+    color: #f14400
+}
+
+.item-top-tit .item-top-tit-maintit {
+    color: #333
+}
+
+.bd-l-main-5px {
+    border-left: 5px solid #f14400!important
+}
+
+.bd-l-main-4px {
+    border-left: 4px solid #f14400!important
+}
+
+.en-main .en-main-content .en-platform .en-platform-l {
+    border: 1px solid #e5e5e5;
+    background-color: #fff
+}
+
+.en-main .en-main-content .en-platform .en-platform-r {
+    border: 1px solid #e5e5e5;
+    background-color: #fff
+}
+
+.en-main .en-main-content .en-platform .platform-contentlist {
+    color: #333
+}
+
+.en-main .en-main-content .en-platform .platform-contentlist li a {
+    color: #333;
+    width: 255px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.en-main .en-main-content .en-platform .platform-contentlist li a:hover {
+    color: #f14400;
+    text-decoration: none
+}
+
+.en-main .en-main-content .en-recomSupplier .supplierInfo h2 a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    font-weight: bolder
+}
+
+.en-main .en-main-content .en-recomSupplier .supplierInfo h2 a:hover {
+    color: #f14400
+}
+
+.slide-circle li {
+    border: 1px solid #e5e5e5;
+    background: #fff
+}
+
+.slide-circle li.current {
+    background-color: #f14400;
+    border: 1px solid #f14400
+}
+
+.en-main .en-main-content .en-prodList .prodList-content {
+    padding: 20px 30px
+}
+
+.en-main .en-main-content .en-prodList .prodList-content ul li {
+    border: 1px solid #e5e5e5
+}
+
+.en-main .en-main-content .en-prodList .prodList-content ul li a {
+    color: #333;
+    text-decoration: none
+}
+
+.en-main .en-main-content .en-prodList .prodList-content ul li a:hover {
+    color: #f14400
+}
+
+.en-main .en-main-content .en-prodList .prodList-content ul li:hover {
+    border: 1px solid #f14400
+}
+
+.en-main .en-main-content .en-prodList .prodList-content .prod-item-bot .prod-item-price {
+    font-size: 16px;
+    color: #f14400
+}
+
+.en-main .en-main-content .en-prodList .prodList-content .prod-item-bot .stars {
+    color: #FF7518;
+    font-size: 16px
+}
+
+.en-main .en-main-content .en-baseinfo,
+.en-main .en-main-content .en-businessCenter,
+.en-main .en-main-content .en-creditinfo,
+.en-main .en-main-content .en-mybuyinfo,
+.en-main .en-main-content .en-prodList,
+.en-main .en-main-content .en-recomSupplier,
+.en-main .en-main-content .en-todoThings,
+.en-main .en-main-content .en-workflow {
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    background-color: #fff
+}
+
+.toRecieveOrd {
+    background: url(/images/public-icons.svg) -122px -562px no-repeat
+}
+
+.toRecieveOrd:hover {
+    background: url(/images/public-icons.svg) -122px -750px no-repeat
+}
+
+.toGetGoods {
+    background: url(/images/public-icons.svg) -216px -562px no-repeat
+}
+
+.toGetGoods:hover {
+    background: url(/images/public-icons.svg) -216px -750px no-repeat
+}
+
+.toPay {
+    background: url(/images/public-icons.svg) -310px -467px no-repeat
+}
+
+.toPay:hover {
+    background: url(/images/public-icons.svg) -310px -655px no-repeat
+}
+
+.toGetInvoice {
+    background: url(/images/public-icons.svg) -216px -466px no-repeat
+}
+
+.toGetInvoice:hover {
+    background: url(/images/public-icons.svg) -216px -654px no-repeat
+}
